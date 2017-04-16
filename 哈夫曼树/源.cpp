@@ -18,7 +18,7 @@ typedef struct node {
 //定义哈夫曼树的存储结构
 typedef struct {
 	char *code;		//唯一编码
-	char *leaf;		//叶子地址
+	char leaf;		//叶子地址
 	int length;		//编码的长度
 }CodeType;			//叶子编码类型
 
